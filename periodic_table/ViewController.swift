@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var h_button: UIButton!
-
     @IBAction func li_button(sender: AnyObject) {
        let li_alert = UIAlertController(title: "Lithium", message: "All the info about the element", preferredStyle: UIAlertControllerStyle.Alert)
         
